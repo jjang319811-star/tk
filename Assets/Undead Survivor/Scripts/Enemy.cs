@@ -1,7 +1,7 @@
-using UnityEngine;
+﻿using UnityEngine;
 using System.Collections;
 
-public class Enemy : MonoBehaviour
+public class Enemy : MonoBehaviour, IDamageable
 {
     public float speed;
     public Rigidbody2D target;
@@ -16,8 +16,21 @@ public class Enemy : MonoBehaviour
     [Tooltip("Enemy arrow prefab index in PoolManager. Required for ranged spawn data.")]
     public int arrowPrefabIndex = -1;
 
-    // GUI/Text Shader draws the sprite's alpha shape in a solid color
-    static Material flashMaterial;
+    // 피격 플래시: 재질 교체(GUI/Text Shader) 대신 TK/PixelSprite 셰이더의 _FlashAmount 사용
+    // → 픽셀 외곽선/조명 유지, 배칭 깨짐 최소화
+    static readonly int FlashAmountId = Shader.PropertyToID("_FlashAmount");
+    static readonly int FlashColorId = Shader.PropertyToID("_FlashColor");
+    MaterialPropertyBlock mpb;
+
+    // 적 떼(EventDirector) 모드: 플레이어를 쫓지 않고 일직선으로 지나감
+    bool swarm;
+    Vector2 swarmDir;
+    float swarmSpeed, swarmLife;
+    public bool IsSwarm => swarm;
+    bool hasHitParam;
+    float spawnTime;
+    /// <summary>생성 직후 3초: 대군 대형이 화면 밖에서 재배치되지 않도록 유예</summary>
+    public bool InSpawnGrace => Time.time - spawnTime < 3f;
 
     bool isLive;
     public bool IsAlive => isLive;
@@ -39,8 +52,24 @@ public class Enemy : MonoBehaviour
         col = GetComponent<Collider2D>();
         wait = new WaitForFixedUpdate();
         defaultMaterial = sr.sharedMaterial;
-        if (flashMaterial == null)
-            flashMaterial = new Material(Shader.Find("GUI/Text Shader")) { color = Color.white };
+        mpb = new MaterialPropertyBlock();
+    }
+
+    public void SetSwarm(Vector2 direction, float moveSpeed, float life)
+    {
+        swarm = true;
+        swarmDir = direction.normalized;
+        swarmSpeed = moveSpeed;
+        swarmLife = life;
+        attackData = null;
+    }
+
+    void SetFlash(float amount)
+    {
+        sr.GetPropertyBlock(mpb);
+        mpb.SetFloat(FlashAmountId, amount);
+        mpb.SetColor(FlashColorId, Color.white);
+        sr.SetPropertyBlock(mpb);
     }
 
     void FixedUpdate()
@@ -49,6 +78,16 @@ public class Enemy : MonoBehaviour
             return;
         if (!isLive || isHit || anim.GetCurrentAnimatorStateInfo(0).IsName("Hit"))
             return;
+
+        if (swarm)
+        {
+            rb.MovePosition(rb.position + swarmDir * swarmSpeed * Time.fixedDeltaTime);
+            rb.linearVelocity = Vector2.zero;
+            swarmLife -= Time.fixedDeltaTime;
+            if (swarmLife <= 0f)
+                gameObject.SetActive(false);
+            return;
+        }
 
         Vector2 dirVec = target.position - rb.position;
         if (attackData != null && attackData.usesRangedAttack
@@ -87,7 +126,9 @@ public class Enemy : MonoBehaviour
         if (!isLive)
             return;
 
-        if (target.position.x < rb.position.x)
+        if (swarm)
+            sr.flipX = swarmDir.x < 0f;
+        else if (target.position.x < rb.position.x)
             sr.flipX = true;
         else
             sr.flipX = false;
@@ -99,7 +140,10 @@ public class Enemy : MonoBehaviour
         col.enabled = true;
         rb.simulated = true;
         isHit = false;
+        swarm = false;
+        spawnTime = Time.time;
         sr.sharedMaterial = defaultMaterial;
+        SetFlash(0f);
         sr.sortingOrder = 2;
         anim.SetBool("Dead", false);
         health = maxHealth;
@@ -111,6 +155,9 @@ public class Enemy : MonoBehaviour
     public void Init(SpawnData spawnData)
     {
         anim.runtimeAnimatorController = animatorController[spawnData.SpriteType];
+        // 컨트롤러에 Hit 파라미터가 있을 때만 트리거 (없으면 매 피격마다 경고가 쌓임)
+        hasHitParam = false;
+        foreach (var p in anim.parameters) if (p.name == "Hit") { hasHitParam = true; break; }
         maxHealth = spawnData.health;
         speed = spawnData.speed;
         health = maxHealth;
@@ -131,13 +178,14 @@ public class Enemy : MonoBehaviour
             return;
 
         health -= damage;
+        GameFeel.DamageNumber(transform.position, damage, false);
         if (hitRoutine != null)
             StopCoroutine(hitRoutine);
         hitRoutine = StartCoroutine(HitRoutine());
 
         if (health > 0)
         {
-            anim.SetTrigger("Hit");
+            if (hasHitParam) anim.SetTrigger("Hit");
         }
         else
         {
@@ -147,7 +195,9 @@ public class Enemy : MonoBehaviour
             sr.sortingOrder = 1;
             anim.SetBool("Dead", true);
             GameManager.instance.kill++;
-            GameManager.instance.GetExp();
+            // 뱀서 룰: 즉시 경험치 대신 보석 드롭 (XpGemSystem 이 없으면 기존처럼 즉시 지급)
+            XpGemSystem.Drop(transform.position, 1);
+            GameFeel.DeathPop(transform.position);
             StartCoroutine(DeadRoutine());
         }
     }
@@ -168,9 +218,9 @@ public class Enemy : MonoBehaviour
         isHit = true;
         rb.linearVelocity = Vector2.zero;
 
-        sr.sharedMaterial = flashMaterial;
+        SetFlash(1f);
         yield return new WaitForSeconds(flashDuration);
-        sr.sharedMaterial = defaultMaterial;
+        SetFlash(0f);
 
         if (isLive)
         {

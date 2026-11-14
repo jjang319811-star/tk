@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
 public class HUD : MonoBehaviour
 {
@@ -25,7 +25,7 @@ public class HUD : MonoBehaviour
     {
         switch(type){
             case InfoType.Level:
-                myText.text = string.Format("Lv: {0:F0}", GameManager.instance.level);
+                myText.text = string.Format("Lv.{0:F0}", GameManager.instance.level);
                 break;
             case InfoType.Exp:
                 float curExp = GameManager.instance.exp;

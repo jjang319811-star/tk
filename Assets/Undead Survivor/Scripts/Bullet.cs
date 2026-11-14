@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 
 public class Bullet : MonoBehaviour
 {
@@ -19,7 +19,7 @@ public class Bullet : MonoBehaviour
 
         if (per > -1)
         {
-            rb.linearVelocity = dir * 3.75f;
+            rb.linearVelocity = dir * 5.6f; // 시야 확대 보정 (x1.5)
         }
     }
 

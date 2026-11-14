@@ -1,0 +1,2938 @@
+fileFormatVersion: 2
+guid: 6a8b861c7f13996479daac29acc5ac92
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 490994002599608166
+    second: decorative_n_0
+  - first:
+      213: 4411034995910139910
+    second: decorative_n_1
+  - first:
+      213: -4169420485065370133
+    second: decorative_n_2
+  - first:
+      213: 5073474883481133982
+    second: decorative_n_3
+  - first:
+      213: 1038303837207540694
+    second: decorative_n_4
+  - first:
+      213: -3251695923158040966
+    second: decorative_n_5
+  - first:
+      213: -5781794798094856885
+    second: decorative_n_6
+  - first:
+      213: -8540977190211881656
+    second: decorative_n_7
+  - first:
+      213: -658303500245580900
+    second: decorative_n_8
+  - first:
+      213: 8080207540641282415
+    second: decorative_n_9
+  - first:
+      213: 2723894313679189684
+    second: decorative_n_10
+  - first:
+      213: 8993167588169781943
+    second: decorative_n_11
+  - first:
+      213: 8546246498359593090
+    second: decorative_n_12
+  - first:
+      213: -6356186052441211340
+    second: decorative_n_13
+  - first:
+      213: 2747985178026791586
+    second: decorative_n_14
+  - first:
+      213: -2155081993168904524
+    second: decorative_n_15
+  - first:
+      213: 3753399314441797512
+    second: decorative_n_16
+  - first:
+      213: -7028174600188806453
+    second: decorative_n_17
+  - first:
+      213: -9105801092045959697
+    second: decorative_n_18
+  - first:
+      213: 3461619714989318856
+    second: decorative_n_19
+  - first:
+      213: -1340347441988529018
+    second: decorative_n_20
+  - first:
+      213: -9041812534297888393
+    second: decorative_n_21
+  - first:
+      213: 3986715601321758412
+    second: decorative_n_22
+  - first:
+      213: 4298559754584520889
+    second: decorative_n_23
+  - first:
+      213: -6359036887780243961
+    second: decorative_n_24
+  - first:
+      213: 1892539883516383818
+    second: decorative_n_25
+  - first:
+      213: -331279348803194891
+    second: decorative_n_26
+  - first:
+      213: 3242948189099494382
+    second: decorative_n_27
+  - first:
+      213: 5328182432744822516
+    second: decorative_n_28
+  - first:
+      213: 6255245043304095118
+    second: decorative_n_29
+  - first:
+      213: -2038205645689662137
+    second: decorative_n_30
+  - first:
+      213: -2992072704435321145
+    second: decorative_n_31
+  - first:
+      213: -4285291878667419741
+    second: decorative_n_32
+  - first:
+      213: -4702766469994808174
+    second: decorative_n_33
+  - first:
+      213: 246575718070845064
+    second: decorative_n_34
+  - first:
+      213: -2313102246645476454
+    second: decorative_n_35
+  - first:
+      213: -3828626140610755351
+    second: decorative_n_36
+  - first:
+      213: 5756464260403235694
+    second: decorative_n_37
+  - first:
+      213: 6772926399320841097
+    second: decorative_n_38
+  - first:
+      213: -4599388241325356446
+    second: decorative_n_39
+  - first:
+      213: 7107028202258174529
+    second: decorative_n_40
+  - first:
+      213: -7718450150210616719
+    second: decorative_n_41
+  - first:
+      213: 5963891892210897045
+    second: decorative_n_42
+  - first:
+      213: 156406208796533193
+    second: decorative_n_43
+  - first:
+      213: 9092924267706124870
+    second: decorative_n_44
+  - first:
+      213: 4614046791461511795
+    second: decorative_n_45
+  - first:
+      213: 529809628581768888
+    second: decorative_n_46
+  - first:
+      213: 7451713961400734773
+    second: decorative_n_47
+  - first:
+      213: 5916857524085627186
+    second: decorative_n_48
+  - first:
+      213: -1349201746348795910
+    second: decorative_n_49
+  - first:
+      213: 6605680785361884001
+    second: decorative_n_50
+  - first:
+      213: -5452894570116802826
+    second: decorative_n_51
+  - first:
+      213: 2114598530409895679
+    second: decorative_n_52
+  - first:
+      213: 5577843567878899487
+    second: decorative_n_53
+  - first:
+      213: -2805937565390469664
+    second: decorative_n_54
+  - first:
+      213: 1684485451293730180
+    second: decorative_n_55
+  - first:
+      213: -1373167420400848605
+    second: decorative_n_56
+  - first:
+      213: -7159237852736226448
+    second: decorative_n_57
+  - first:
+      213: -2598951559319476527
+    second: decorative_n_58
+  - first:
+      213: 8322283690832376013
+    second: decorative_n_59
+  - first:
+      213: -8569864908587063208
+    second: decorative_n_60
+  - first:
+      213: 2229590403986264351
+    second: decorative_n_61
+  - first:
+      213: 8782799192296266983
+    second: decorative_n_62
+  - first:
+      213: -7507382321989355520
+    second: decorative_n_63
+  - first:
+      213: 8304065908709647867
+    second: decorative_n_64
+  - first:
+      213: 4486189115878064188
+    second: decorative_n_65
+  - first:
+      213: 8609996197148982195
+    second: decorative_n_66
+  - first:
+      213: -349124901015903481
+    second: decorative_n_67
+  - first:
+      213: 50877615659186661
+    second: decorative_n_68
+  - first:
+      213: -1111440561342863717
+    second: decorative_n_69
+  - first:
+      213: -9092967333037159186
+    second: decorative_n_70
+  - first:
+      213: 3696760007274199661
+    second: decorative_n_71
+  - first:
+      213: -8385145251499573132
+    second: decorative_n_72
+  - first:
+      213: -2229701128160451428
+    second: decorative_n_73
+  - first:
+      213: -4018206014535581188
+    second: decorative_n_74
+  - first:
+      213: 4735375417620617839
+    second: decorative_n_75
+  - first:
+      213: -4728111807200236566
+    second: decorative_n_76
+  - first:
+      213: 3023543063459162445
+    second: decorative_n_77
+  - first:
+      213: -5769679419473023410
+    second: decorative_n_78
+  - first:
+      213: 3141320790011807605
+    second: decorative_n_79
+  - first:
+      213: -71547810735588722
+    second: decorative_n_80
+  - first:
+      213: -4675112102538316900
+    second: decorative_n_81
+  - first:
+      213: 1182810616388302524
+    second: decorative_n_82
+  - first:
+      213: 5901904551837393769
+    second: decorative_n_83
+  - first:
+      213: -4457319388365805323
+    second: decorative_n_84
+  - first:
+      213: 131830174458312208
+    second: decorative_n_85
+  - first:
+      213: 5382249781008215925
+    second: decorative_n_86
+  - first:
+      213: -8404585021005875828
+    second: decorative_n_87
+  - first:
+      213: 697886025436905105
+    second: decorative_n_88
+  - first:
+      213: -4675291791024805199
+    second: decorative_n_89
+  - first:
+      213: 6269316471022778566
+    second: decorative_n_90
+  - first:
+      213: 2962846795761137539
+    second: decorative_n_91
+  - first:
+      213: 4576319630183091865
+    second: decorative_n_92
+  - first:
+      213: 5862970547312156345
+    second: decorative_n_93
+  - first:
+      213: 6996130439797894076
+    second: decorative_n_94
+  - first:
+      213: 3312831019473724082
+    second: decorative_n_95
+  - first:
+      213: -1140745410530965356
+    second: decorative_n_96
+  - first:
+      213: 8076431461215600696
+    second: decorative_n_97
+  - first:
+      213: -8340650705944082810
+    second: decorative_n_98
+  - first:
+      213: -4267657264766267533
+    second: decorative_n_99
+  - first:
+      213: -7144090483714180257
+    second: decorative_n_100
+  - first:
+      213: 3690823169111083858
+    second: decorative_n_101
+  - first:
+      213: 6803117852344033143
+    second: decorative_n_102
+  - first:
+      213: -490841819161269267
+    second: decorative_n_103
+  - first:
+      213: -3672772003292606477
+    second: decorative_n_104
+  - first:
+      213: 948066203547592626
+    second: decorative_n_105
+  - first:
+      213: 793990408194336812
+    second: decorative_n_106
+  - first:
+      213: -769357871090340484
+    second: decorative_n_107
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 0
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 1
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: decorative_n_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 831
+        width: 86
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66ffbc7a17c50d600800000000000000
+      internalID: 490994002599608166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_n_1
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 831
+        width: 66
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6006a0745f4273d30800000000000000
+      internalID: 4411034995910139910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_n_2
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 831
+        width: 64
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be5117cc82e3326c0800000000000000
+      internalID: -4169420485065370133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_n_3
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 831
+        width: 51
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9362cea68a986640800000000000000
+      internalID: 5073474883481133982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_n_4
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 831
+        width: 42
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d33ea9b6dbc86e00800000000000000
+      internalID: 1038303837207540694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_n_5
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 831
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7e349e39c7afd2d0800000000000000
+      internalID: -3251695923158040966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_n_6
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 703
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4dca5fa340f2cfa0800000000000000
+      internalID: -5781794798094856885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_n_7
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 703
+        width: 42
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 845f4be5f7a587980800000000000000
+      internalID: -8540977190211881656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_n_8
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 703
+        width: 51
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c934771547c3dd6f0800000000000000
+      internalID: -658303500245580900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_n_9
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 703
+        width: 64
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f693b5b82f9a22070800000000000000
+      internalID: 8080207540641282415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_n_10
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 703
+        width: 66
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b6fd8c42773dc520800000000000000
+      internalID: 2723894313679189684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_n_11
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 703
+        width: 86
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b29a6a06462ecc70800000000000000
+      internalID: 8993167588169781943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_n_12
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 575
+        width: 29
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28846a909ed5a9670800000000000000
+      internalID: 8546246498359593090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_n_13
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 575
+        width: 66
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43ef2f9367a4ac7a0800000000000000
+      internalID: -6356186052441211340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_n_14
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 575
+        width: 98
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a25350c5fdc22620800000000000000
+      internalID: 2747985178026791586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_n_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 447
+        width: 97
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4be9357685c9712e0800000000000000
+      internalID: -2155081993168904524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_n_16
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 447
+        width: 66
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88f7f754ac0c61430800000000000000
+      internalID: 3753399314441797512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_n_17
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 447
+        width: 29
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcab2502078e67e90800000000000000
+      internalID: -7028174600188806453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_n_18
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 353
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fed8c31c622b1a180800000000000000
+      internalID: -9105801092045959697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_n_19
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 364
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c26d635ac42a0030800000000000000
+      internalID: 3461619714989318856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_n_20
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 357
+        width: 27
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6849bac5a11266de0800000000000000
+      internalID: -1340347441988529018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_n_21
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 363
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 779ff77d767058280800000000000000
+      internalID: -9041812534297888393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_n_22
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 363
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cce8a4587b8a35730800000000000000
+      internalID: 3986715601321758412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_n_23
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 357
+        width: 27
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b8fcc1725d87ab30800000000000000
+      internalID: 4298559754584520889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_n_24
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 364
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 706c04664a920c7a0800000000000000
+      internalID: -6359036887780243961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_n_25
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 353
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a42d0483ff6a34a10800000000000000
+      internalID: 1892539883516383818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_n_26
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 323
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ffa92dff2f076bf0800000000000000
+      internalID: -331279348803194891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_n_27
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 329
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eeb85443234410d20800000000000000
+      internalID: 3242948189099494382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_n_28
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 322
+        width: 33
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f65b3251b181f940800000000000000
+      internalID: 5328182432744822516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_n_29
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 323
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8dd925a9381fc650800000000000000
+      internalID: 6255245043304095118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_n_30
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 323
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 745d87d93c6d6b3e0800000000000000
+      internalID: -2038205645689662137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_n_31
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 322
+        width: 33
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c68dfd5ab50a76d0800000000000000
+      internalID: -2992072704435321145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_n_32
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 329
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3af7925adb59784c0800000000000000
+      internalID: -4285291878667419741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_n_33
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 323
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29c7756dfca6cbeb0800000000000000
+      internalID: -4702766469994808174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_n_34
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 296
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88e79d52f430c6300800000000000000
+      internalID: 246575718070845064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_n_35
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 290
+        width: 27
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a93d98313c536efd0800000000000000
+      internalID: -2313102246645476454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_n_36
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 297
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e40f1f5fccfddac0800000000000000
+      internalID: -3828626140610755351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_n_37
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 286
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6b019beeb113ef40800000000000000
+      internalID: 5756464260403235694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_n_38
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 286
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98b5269fca44efd50800000000000000
+      internalID: 6772926399320841097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_n_39
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 297
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26a81bb53c0bb20c0800000000000000
+      internalID: -4599388241325356446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_n_40
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 290
+        width: 27
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 142184cce7c31a260800000000000000
+      internalID: 7107028202258174529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_n_41
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 296
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 172c2248b7e82e490800000000000000
+      internalID: -7718450150210616719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_n_42
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 256
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5901012f31004c250800000000000000
+      internalID: 5963891892210897045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_n_43
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 255
+        width: 33
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c1abf34e9aab2200800000000000000
+      internalID: 156406208796533193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_n_44
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 262
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64a0722f17e803e70800000000000000
+      internalID: 9092924267706124870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_n_45
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 256
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 372281e4c13680040800000000000000
+      internalID: 4614046791461511795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_n_46
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 256
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bea236dc034a5700800000000000000
+      internalID: 529809628581768888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_n_47
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 262
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5341c15fd5ec96760800000000000000
+      internalID: 7451713961400734773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_n_48
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 255
+        width: 33
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23998bdb196ec1250800000000000000
+      internalID: 5916857524085627186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_n_49
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 256
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af71b8af82ca64de0800000000000000
+      internalID: -1349201746348795910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_n_50
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 206
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1635e170da71cab50800000000000000
+      internalID: 6605680785361884001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_n_51
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 209
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f61886774d6354b0800000000000000
+      internalID: -5452894570116802826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_n_52
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 209
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff615a7e820985d10800000000000000
+      internalID: 2114598530409895679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_n_53
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 191
+        width: 26
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f178e1c1c2b786d40800000000000000
+      internalID: 5577843567878899487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_n_54
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 206
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e50af896ae4f09d0800000000000000
+      internalID: -2805937565390469664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_n_55
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 209
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4852da9d79e706710800000000000000
+      internalID: 1684485451293730180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_n_56
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 209
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3213ed9a18781fce0800000000000000
+      internalID: -1373167420400848605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_n_57
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 191
+        width: 26
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07b702daa1745ac90800000000000000
+      internalID: -7159237852736226448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_n_58
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 198
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d6a05e935baeebd0800000000000000
+      internalID: -2598951559319476527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_n_59
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 195
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc037186ce0be7370800000000000000
+      internalID: 8322283690832376013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_n_60
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 196
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 858259e4549b11980800000000000000
+      internalID: -8569864908587063208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_n_61
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 198
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f119838d8a811fe10800000000000000
+      internalID: 2229590403986264351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_n_62
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 195
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ec18660555c2e970800000000000000
+      internalID: 8782799192296266983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_n_63
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 196
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 008f6c0dd8b60d790800000000000000
+      internalID: -7507382321989355520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_n_64
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 177
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf5e11872f7fd3370800000000000000
+      internalID: 8304065908709647867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_n_65
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 173
+        width: 25
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c30c2276b35224e30800000000000000
+      internalID: 4486189115878064188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_n_66
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 165
+        width: 29
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bb77807ce9dc7770800000000000000
+      internalID: 8609996197148982195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_n_67
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 177
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70324b490c8a72bf0800000000000000
+      internalID: -349124901015903481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_n_68
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 173
+        width: 25
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e972600ce0c4b000800000000000000
+      internalID: 50877615659186661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_n_69
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 165
+        width: 29
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b96a238b2be5390f0800000000000000
+      internalID: -1111440561342863717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_n_70
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 159
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eecc610236a4fc180800000000000000
+      internalID: -9092967333037159186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_n_71
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 159
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6af27de3a78d4330800000000000000
+      internalID: 3696760007274199661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_n_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 132
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4708056f1daf1ab80800000000000000
+      internalID: -8385145251499573132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_n_73
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 137
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9465bc23a28e01e0800000000000000
+      internalID: -2229701128160451428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_n_74
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 139
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf1c44d4be67c38c0800000000000000
+      internalID: -4018206014535581188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_n_75
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 128
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6ad46d6ade67b140800000000000000
+      internalID: 4735375417620617839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_n_76
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 137
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aebef79ac5f526eb0800000000000000
+      internalID: -4728111807200236566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_n_77
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 139
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4964949568c5f920800000000000000
+      internalID: 3023543063459162445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_n_78
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 113
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4ead66132bfdefa0800000000000000
+      internalID: -5769679419473023410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_n_79
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 113
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57704367d96389b20800000000000000
+      internalID: 3141320790011807605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_n_80
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 113
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8af5ac25afc10ff0800000000000000
+      internalID: -71547810735588722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_n_81
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 113
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c93f213005aae1fb0800000000000000
+      internalID: -4675112102538316900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_n_82
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 128
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb6b2622dff2a6010800000000000000
+      internalID: 1182810616388302524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_n_83
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 95
+        width: 25
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96367869be6c7e150800000000000000
+      internalID: 5901904551837393769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_n_84
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 100
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f8aef5d1ab6422c0800000000000000
+      internalID: -4457319388365805323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_n_85
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 99
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 016f34f58da54d100800000000000000
+      internalID: 131830174458312208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_n_86
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 110
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57f2b61d8a791ba40800000000000000
+      internalID: 5382249781008215925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_n_87
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 102
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c85306ae37aec5b80800000000000000
+      internalID: -8404585021005875828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_n_88
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 95
+        width: 26
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19e30ef74a36fa900800000000000000
+      internalID: 697886025436905105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_n_89
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 100
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1baaaa603e60e1fb0800000000000000
+      internalID: -4675291791024805199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_n_90
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 99
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c871d73d16110750800000000000000
+      internalID: 6269316471022778566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_n_91
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 110
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3873f3186752e1920800000000000000
+      internalID: 2962846795761137539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_n_92
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 102
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99ec5bf057a528f30800000000000000
+      internalID: 4576319630183091865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_n_93
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 69
+        width: 29
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9be5e1146a47d5150800000000000000
+      internalID: 5862970547312156345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_n_94
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 77
+        width: 25
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbb6372619f371160800000000000000
+      internalID: 6996130439797894076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_n_95
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 81
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b260a4924a89fd20800000000000000
+      internalID: 3312831019473724082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_n_96
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 69
+        width: 29
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4980522d7124b20f0800000000000000
+      internalID: -1140745410530965356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_n_97
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 77
+        width: 25
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8308b8a8f9f351070800000000000000
+      internalID: 8076431461215600696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_n_98
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 81
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6868794af5e004c80800000000000000
+      internalID: -8340650705944082810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_n_99
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 63
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37fcd76245c36c4c0800000000000000
+      internalID: -4267657264766267533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_n_100
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 63
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5bb7fa5e871bdc90800000000000000
+      internalID: -7144090483714180257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_n_101
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 43
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25bc5a31e10783330800000000000000
+      internalID: 3690823169111083858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_n_102
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 41
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77f951a64a7896e50800000000000000
+      internalID: 6803117852344033143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_n_103
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 32
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: deb6cff47fd2039f0800000000000000
+      internalID: -490841819161269267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_n_104
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 43
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ff8eba7251b70dc0800000000000000
+      internalID: -3672772003292606477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_n_105
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 41
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b7e1066035382d00800000000000000
+      internalID: 948066203547592626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_n_106
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 36
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c28ad7bc112d40b00800000000000000
+      internalID: 793990408194336812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_n_107
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7d628ca711b255f0800000000000000
+      internalID: -769357871090340484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      decorative_n_0: 490994002599608166
+      decorative_n_1: 4411034995910139910
+      decorative_n_10: 2723894313679189684
+      decorative_n_100: -7144090483714180257
+      decorative_n_101: 3690823169111083858
+      decorative_n_102: 6803117852344033143
+      decorative_n_103: -490841819161269267
+      decorative_n_104: -3672772003292606477
+      decorative_n_105: 948066203547592626
+      decorative_n_106: 793990408194336812
+      decorative_n_107: -769357871090340484
+      decorative_n_11: 8993167588169781943
+      decorative_n_12: 8546246498359593090
+      decorative_n_13: -6356186052441211340
+      decorative_n_14: 2747985178026791586
+      decorative_n_15: -2155081993168904524
+      decorative_n_16: 3753399314441797512
+      decorative_n_17: -7028174600188806453
+      decorative_n_18: -9105801092045959697
+      decorative_n_19: 3461619714989318856
+      decorative_n_2: -4169420485065370133
+      decorative_n_20: -1340347441988529018
+      decorative_n_21: -9041812534297888393
+      decorative_n_22: 3986715601321758412
+      decorative_n_23: 4298559754584520889
+      decorative_n_24: -6359036887780243961
+      decorative_n_25: 1892539883516383818
+      decorative_n_26: -331279348803194891
+      decorative_n_27: 3242948189099494382
+      decorative_n_28: 5328182432744822516
+      decorative_n_29: 6255245043304095118
+      decorative_n_3: 5073474883481133982
+      decorative_n_30: -2038205645689662137
+      decorative_n_31: -2992072704435321145
+      decorative_n_32: -4285291878667419741
+      decorative_n_33: -4702766469994808174
+      decorative_n_34: 246575718070845064
+      decorative_n_35: -2313102246645476454
+      decorative_n_36: -3828626140610755351
+      decorative_n_37: 5756464260403235694
+      decorative_n_38: 6772926399320841097
+      decorative_n_39: -4599388241325356446
+      decorative_n_4: 1038303837207540694
+      decorative_n_40: 7107028202258174529
+      decorative_n_41: -7718450150210616719
+      decorative_n_42: 5963891892210897045
+      decorative_n_43: 156406208796533193
+      decorative_n_44: 9092924267706124870
+      decorative_n_45: 4614046791461511795
+      decorative_n_46: 529809628581768888
+      decorative_n_47: 7451713961400734773
+      decorative_n_48: 5916857524085627186
+      decorative_n_49: -1349201746348795910
+      decorative_n_5: -3251695923158040966
+      decorative_n_50: 6605680785361884001
+      decorative_n_51: -5452894570116802826
+      decorative_n_52: 2114598530409895679
+      decorative_n_53: 5577843567878899487
+      decorative_n_54: -2805937565390469664
+      decorative_n_55: 1684485451293730180
+      decorative_n_56: -1373167420400848605
+      decorative_n_57: -7159237852736226448
+      decorative_n_58: -2598951559319476527
+      decorative_n_59: 8322283690832376013
+      decorative_n_6: -5781794798094856885
+      decorative_n_60: -8569864908587063208
+      decorative_n_61: 2229590403986264351
+      decorative_n_62: 8782799192296266983
+      decorative_n_63: -7507382321989355520
+      decorative_n_64: 8304065908709647867
+      decorative_n_65: 4486189115878064188
+      decorative_n_66: 8609996197148982195
+      decorative_n_67: -349124901015903481
+      decorative_n_68: 50877615659186661
+      decorative_n_69: -1111440561342863717
+      decorative_n_7: -8540977190211881656
+      decorative_n_70: -9092967333037159186
+      decorative_n_71: 3696760007274199661
+      decorative_n_72: -8385145251499573132
+      decorative_n_73: -2229701128160451428
+      decorative_n_74: -4018206014535581188
+      decorative_n_75: 4735375417620617839
+      decorative_n_76: -4728111807200236566
+      decorative_n_77: 3023543063459162445
+      decorative_n_78: -5769679419473023410
+      decorative_n_79: 3141320790011807605
+      decorative_n_8: -658303500245580900
+      decorative_n_80: -71547810735588722
+      decorative_n_81: -4675112102538316900
+      decorative_n_82: 1182810616388302524
+      decorative_n_83: 5901904551837393769
+      decorative_n_84: -4457319388365805323
+      decorative_n_85: 131830174458312208
+      decorative_n_86: 5382249781008215925
+      decorative_n_87: -8404585021005875828
+      decorative_n_88: 697886025436905105
+      decorative_n_89: -4675291791024805199
+      decorative_n_9: 8080207540641282415
+      decorative_n_90: 6269316471022778566
+      decorative_n_91: 2962846795761137539
+      decorative_n_92: 4576319630183091865
+      decorative_n_93: 5862970547312156345
+      decorative_n_94: 6996130439797894076
+      decorative_n_95: 3312831019473724082
+      decorative_n_96: -1140745410530965356
+      decorative_n_97: 8076431461215600696
+      decorative_n_98: -8340650705944082810
+      decorative_n_99: -4267657264766267533
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

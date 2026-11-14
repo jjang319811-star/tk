@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 
 [CreateAssetMenu(fileName = "Item", menuName = "ScriptableObjects/ItemData")]
 public class ItemData : ScriptableObject
@@ -14,7 +14,12 @@ public class ItemData : ScriptableObject
     public string itemName;
     [TextArea]
     public string itemDesc;
+    [Tooltip("처음 얻을 때(신규) 보여 줄 소개문. 비어 있으면 itemDesc 사용")]
+    [TextArea]
+    public string introDesc;
     public Sprite itemIcon;
+    [Tooltip("16px 소형 아이콘 (인벤토리 슬롯용, 원본에서 픽셀 단위로 축소 생성)")]
+    public Sprite iconSmall;
     [Header("# Level Data")]
     public float baseDamage;
     public int baseCount;

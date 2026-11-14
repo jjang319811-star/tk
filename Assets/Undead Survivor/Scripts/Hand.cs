@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 
 public class Hand : MonoBehaviour
 {
@@ -7,8 +7,8 @@ public class Hand : MonoBehaviour
 
     SpriteRenderer player;
 
-    Vector3 rightPos = new Vector3(0.175f, 0f, 0);
-    Vector3 rightPosReverse = new Vector3(0.055f, -0.0675f, 0);
+    Vector3 rightPos = new Vector3(0.28f, -0.05f, 0);
+    Vector3 rightPosReverse = new Vector3(0.09f, -0.16f, 0);
     Quaternion leftRot = Quaternion.Euler(0, 0,-35);
     Quaternion leftRotReverse = Quaternion.Euler(0, 0, -135);
 

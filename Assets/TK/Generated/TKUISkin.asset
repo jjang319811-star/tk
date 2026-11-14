@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d44cd1e64779f54ca49860c8d0dfd94, type: 3}
+  m_Name: TKUISkin
+  m_EditorClassIdentifier: Assembly-CSharp::TKUISkin
+  font: {fileID: 12800000, guid: 0626730c7956656478ba0890205c40e4, type: 3}
+  panel: {fileID: 3710453836291156976, guid: 2a94ce0b75902534786993ef80ca752c, type: 2}
+  card: {fileID: 734934351156650948, guid: 2a94ce0b75902534786993ef80ca752c, type: 2}
+  ribbon: {fileID: 6755242631151207616, guid: 2a94ce0b75902534786993ef80ca752c, type: 2}
+  ribbonPaper: {fileID: -262386604139490993, guid: 2a94ce0b75902534786993ef80ca752c, type: 2}
+  slot: {fileID: -2749459181559181300, guid: 2a94ce0b75902534786993ef80ca752c, type: 2}
+  button: {fileID: 7090232963226718232, guid: 2a94ce0b75902534786993ef80ca752c, type: 2}
+  barFrame: {fileID: 6651684210538433750, guid: 2a94ce0b75902534786993ef80ca752c, type: 2}
+  barThin: {fileID: 6600033219719007040, guid: 2a94ce0b75902534786993ef80ca752c, type: 2}
+  white: {fileID: 21300000, guid: 171208e7a32bb884c9b5da446ab3d38b, type: 3}
+  skull: {fileID: 891942287, guid: d71a3dc7aa20fad4f9a99fc76a9254ba, type: 3}
+  bossPortrait: {fileID: -1204477500288302685, guid: 0f80a4b108e54d44abddb4bb25e65e95, type: 3}
+  headlineSize: 32
+  titleSize: 16
+  bodySize: 16
+  smallSize: 16

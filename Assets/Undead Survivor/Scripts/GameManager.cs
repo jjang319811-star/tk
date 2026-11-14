@@ -9,6 +9,8 @@ public class GameManager : MonoBehaviour
     public bool isLive;
     public float gameTime;
     public float maxPlayTime = 60f;
+    [Tooltip("보스전 중에는 제한 시간이 끝나도 자동 승리하지 않음 (BossDirector 가 설정)")]
+    public bool bossFightActive;
     [Header("#Player Info")]
     public float health;
     public float maxHealth = 100;
@@ -80,7 +82,8 @@ public class GameManager : MonoBehaviour
         if (gameTime >= maxPlayTime)
         {
             gameTime = maxPlayTime;
-            GameWin();
+            if (!bossFightActive)
+                GameWin();
         }
     }
     public void GetExp()

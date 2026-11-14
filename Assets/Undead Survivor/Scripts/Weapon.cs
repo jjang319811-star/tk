@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.InputSystem;
 using System.Collections.Generic;
 
@@ -123,23 +123,17 @@ public class Weapon : MonoBehaviour
     void FireAreaWeapon()
     {
         Vector2 origin = player.transform.position;
-        Collider2D[] hits = Physics2D.OverlapCircleAll(origin, player.scanner.scanRange, player.scanner.targetLayer);
-        List<Enemy> enemies = new List<Enemy>();
-        foreach (Collider2D hit in hits)
-        {
-            Enemy enemy = hit.GetComponentInParent<Enemy>();
-            if (enemy != null && enemy.IsAlive && !enemies.Contains(enemy))
-                enemies.Add(enemy);
-        }
+        // 공용 비할당 탐색(TKCombat) 사용 — 일반 적 + 보스, 가까운 순 정렬
+        List<IDamageable> enemies = TKCombat.FindTargets(origin, player.scanner.scanRange, player.scanner.targetLayer);
 
         if (enemies.Count == 0)
             return;
 
         if (data.itemType == ItemData.ItemType.FireBreath)
         {
-            Enemy nearest = enemies[0];
+            IDamageable nearest = enemies[0];
             float nearestDistance = ((Vector2)nearest.transform.position - origin).sqrMagnitude;
-            foreach (Enemy enemy in enemies)
+            foreach (IDamageable enemy in enemies)
             {
                 float distance = ((Vector2)enemy.transform.position - origin).sqrMagnitude;
                 if (distance < nearestDistance)
@@ -149,16 +143,20 @@ public class Weapon : MonoBehaviour
                 }
             }
 
-            Vector2 direction = ((Vector2)nearest.transform.position - origin).normalized;
+            // 손을 내지르며 손끝에서 화염 분사 (이펙트는 손 앵커를 따라감)
+            player.PlayAttack(true, nearest.transform.position);
+            Vector2 hand = player.HandPosition;
+            Vector2 direction = ((Vector2)nearest.transform.position - hand).normalized;
             if (direction == Vector2.zero)
                 direction = Vector2.right;
             float levelScale = 1f + count * 0.01f;
-            // effectScale is visual only; damage range grows with level alone.
+            // 시각 크기는 정수 배율(픽셀 비율 유지) 고정, 레벨에 따라 피해 범위만 증가
             WeaponEffect effect = GameManager.instance.poolManager.Get(prefabId).GetComponent<WeaponEffect>();
-            effect.PlayFire(player.transform, direction, data.effectScale * levelScale, data.attackRange * levelScale, damage, player.scanner.targetLayer);
+            effect.PlayFire(player.HandAnchor, direction, Mathf.Max(1f, Mathf.Round(data.effectScale)), data.attackRange * levelScale, damage, player.scanner.targetLayer);
             return;
         }
 
+        player.PlayAttack(true, enemies[0].transform.position); // 손을 들어 천뢰를 부름
         List<Vector2> positions = new List<Vector2>();
         while (enemies.Count > 0 && positions.Count < count)
         {
@@ -178,7 +176,7 @@ public class Weapon : MonoBehaviour
                 continue;
             positions.Add(position);
             WeaponEffect effect = GameManager.instance.poolManager.Get(prefabId).GetComponent<WeaponEffect>();
-            effect.PlayLightning(position, data.effectScale, data.areaRadius, damage, player.scanner.targetLayer);
+            effect.PlayLightning(position, Mathf.Max(1f, Mathf.Round(data.effectScale)), data.areaRadius, damage, player.scanner.targetLayer);
         }
     }
     void Batch()
@@ -197,7 +195,7 @@ public class Weapon : MonoBehaviour
             }
 
             float angle = i * 360f / count;
-            bullet.localPosition = Quaternion.Euler(0f, 0f, angle) * Vector3.up * 0.425f;
+            bullet.localPosition = Quaternion.Euler(0f, 0f, angle) * Vector3.up * 0.65f; // 공명(64px) 몸체 바깥으로 회전
             bullet.rotation = Quaternion.identity;
             bullet.GetComponent<Bullet>().Init(damage, -1, bullet.up); // -1 is infinity pierce.
         }
@@ -207,10 +205,13 @@ public class Weapon : MonoBehaviour
         if (!(player.scanner.nearestTarget != null))
             return;
 
+        // 손끝에서 발사 + 시전 동작
         Vector3 targetPos = player.scanner.nearestTarget.position;
-        Vector3 dir = (targetPos - transform.position).normalized;
+        player.PlayAttack(true, targetPos);
+        Vector3 origin = player.HandPosition;
+        Vector3 dir = (targetPos - origin).normalized;
         Transform bullet = GameManager.instance.poolManager.Get(prefabId).transform;
-        bullet.position = transform.position;
+        bullet.position = origin;
         bullet.rotation = Quaternion.FromToRotation(Vector3.up, dir);
         bullet.GetComponent<Bullet>().Init(damage, count, dir);
     }

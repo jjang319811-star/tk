@@ -78,29 +78,15 @@ public class WeaponEffect : MonoBehaviour
         gameObject.SetActive(false);
     }
 
+    // 범위 피해는 공용 TKCombat.DamageCircle(비할당 버퍼, 일반 적+보스 공통)로 통합
     static void DamageEnemies(Vector2 origin, float radius, float damage, LayerMask targetLayer, Vector2 direction, bool cone)
     {
-        Collider2D[] hits = Physics2D.OverlapCircleAll(origin, radius, targetLayer);
-        HashSet<Enemy> damaged = new HashSet<Enemy>();
-        GameManager.instance.BeginDamageBatch();
-        try
+        TKCombat.DamageCircle(origin, radius, damage, targetLayer, null, enemy =>
         {
-            foreach (Collider2D hit in hits)
-            {
-                Enemy enemy = hit.GetComponentInParent<Enemy>();
-                if (enemy == null || !enemy.IsAlive || !damaged.Add(enemy))
-                    continue;
-
-                Vector2 offset = (Vector2)enemy.transform.position - origin;
-                if (cone && (offset.sqrMagnitude > radius * radius ||
-                             (offset != Vector2.zero && Vector2.Angle(direction, offset) > FireHalfAngle)))
-                    continue;
-                enemy.TakeDamage(damage);
-            }
-        }
-        finally
-        {
-            GameManager.instance.EndDamageBatch();
-        }
+            if (!cone) return true;
+            Vector2 offset = (Vector2)enemy.transform.position - origin;
+            return offset.sqrMagnitude <= radius * radius &&
+                   (offset == Vector2.zero || Vector2.Angle(direction, offset) <= FireHalfAngle);
+        });
     }
 }

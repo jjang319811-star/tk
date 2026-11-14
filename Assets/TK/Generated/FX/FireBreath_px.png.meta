@@ -1,0 +1,1326 @@
+fileFormatVersion: 2
+guid: 6681b10e93be633448e5eb3aaf991884
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5751007279926714616
+    second: FireBreath_px_0
+  - first:
+      213: 8171446597427984520
+    second: FireBreath_px_1
+  - first:
+      213: -1561599962134629850
+    second: FireBreath_px_2
+  - first:
+      213: -4227130472601645767
+    second: FireBreath_px_3
+  - first:
+      213: -4669167881101432204
+    second: FireBreath_px_4
+  - first:
+      213: -7426305500452678575
+    second: FireBreath_px_5
+  - first:
+      213: -4815220853818092534
+    second: FireBreath_px_6
+  - first:
+      213: 5488356340664094798
+    second: FireBreath_px_7
+  - first:
+      213: -3160938792765877454
+    second: FireBreath_px_8
+  - first:
+      213: -2957263081653365878
+    second: FireBreath_px_9
+  - first:
+      213: -4910608545247374935
+    second: FireBreath_px_10
+  - first:
+      213: 3720796858129237368
+    second: FireBreath_px_11
+  - first:
+      213: 8081992132679452744
+    second: FireBreath_px_12
+  - first:
+      213: -3823944883769141786
+    second: FireBreath_px_13
+  - first:
+      213: 3642607895702583081
+    second: FireBreath_px_14
+  - first:
+      213: -5832686640579395497
+    second: FireBreath_px_15
+  - first:
+      213: -7095317889537324629
+    second: FireBreath_px_16
+  - first:
+      213: -646218089324868944
+    second: FireBreath_px_17
+  - first:
+      213: -8706641884694695939
+    second: FireBreath_px_18
+  - first:
+      213: -9093404760533061160
+    second: FireBreath_px_19
+  - first:
+      213: 644040291350237914
+    second: FireBreath_px_20
+  - first:
+      213: -7286229977708135313
+    second: FireBreath_px_21
+  - first:
+      213: -901060997341849016
+    second: FireBreath_px_22
+  - first:
+      213: -1946252985159897675
+    second: FireBreath_px_23
+  - first:
+      213: 1251942061934566751
+    second: FireBreath_px_24
+  - first:
+      213: -7990606691976496356
+    second: FireBreath_px_25
+  - first:
+      213: -3911924817816853866
+    second: FireBreath_px_26
+  - first:
+      213: 8823598500697791080
+    second: FireBreath_px_27
+  - first:
+      213: -2527720349627544319
+    second: FireBreath_px_28
+  - first:
+      213: 3466131601257891931
+    second: FireBreath_px_29
+  - first:
+      213: -84091276959453628
+    second: FireBreath_px_30
+  - first:
+      213: 5172389817495527842
+    second: FireBreath_px_31
+  - first:
+      213: -5514166571454239825
+    second: FireBreath_px_32
+  - first:
+      213: 8110922575043071546
+    second: FireBreath_px_33
+  - first:
+      213: -5610798195520652682
+    second: FireBreath_px_34
+  - first:
+      213: 3856821973128457285
+    second: FireBreath_px_35
+  - first:
+      213: -1489823731970051641
+    second: FireBreath_px_36
+  - first:
+      213: 927401362303067769
+    second: FireBreath_px_37
+  - first:
+      213: 6639679061050947566
+    second: FireBreath_px_38
+  - first:
+      213: -5901632073482544922
+    second: FireBreath_px_39
+  - first:
+      213: -3738653078175995456
+    second: FireBreath_px_40
+  - first:
+      213: -2288820555473383722
+    second: FireBreath_px_41
+  - first:
+      213: 3915717416518753724
+    second: FireBreath_px_42
+  - first:
+      213: 8743623736518961024
+    second: FireBreath_px_43
+  - first:
+      213: 3893596300339757907
+    second: FireBreath_px_44
+  - first:
+      213: 7528863355630315897
+    second: FireBreath_px_45
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: FireBreath_px_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 418
+        width: 69
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80f584b59515030b0800000000000000
+      internalID: -5751007279926714616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireBreath_px_1
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 417
+        width: 70
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 888f4ccd26fc66170800000000000000
+      internalID: 8171446597427984520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireBreath_px_2
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 416
+        width: 70
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 622b3bfab15145ae0800000000000000
+      internalID: -1561599962134629850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireBreath_px_3
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 420
+        width: 71
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93d89514b373655c0800000000000000
+      internalID: -4227130472601645767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireBreath_px_4
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 419
+        width: 71
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47a294aec88c33fb0800000000000000
+      internalID: -4669167881101432204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireBreath_px_5
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 419
+        width: 72
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1541dfb5e7670f890800000000000000
+      internalID: -7426305500452678575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireBreath_px_6
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 361
+        width: 72
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a049e154526ec2db0800000000000000
+      internalID: -4815220853818092534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireBreath_px_7
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 360
+        width: 72
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e40db06630f8a2c40800000000000000
+      internalID: 5488356340664094798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireBreath_px_8
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 360
+        width: 72
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23310745ae61224d0800000000000000
+      internalID: -3160938792765877454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireBreath_px_9
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 360
+        width: 72
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a839cae35e0b5f6d0800000000000000
+      internalID: -2957263081653365878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireBreath_px_10
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 360
+        width: 73
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a1588dab830adbb0800000000000000
+      internalID: -4910608545247374935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireBreath_px_11
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 360
+        width: 70
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 875ce22670de2a330800000000000000
+      internalID: 3720796858129237368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireBreath_px_12
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 383
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8484cd14601092070800000000000000
+      internalID: 8081992132679452744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireBreath_px_13
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 302
+        width: 70
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e5944a636e9eeac0800000000000000
+      internalID: -3823944883769141786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireBreath_px_14
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 302
+        width: 67
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 927b26fe4942d8230800000000000000
+      internalID: 3642607895702583081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireBreath_px_15
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 302
+        width: 67
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 750491e37622e0fa0800000000000000
+      internalID: -5832686640579395497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireBreath_px_16
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 302
+        width: 67
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba947a9d8fd588d90800000000000000
+      internalID: -7095317889537324629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireBreath_px_17
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 302
+        width: 67
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ba0c52521c2807f0800000000000000
+      internalID: -646218089324868944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireBreath_px_18
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 303
+        width: 67
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dff2c3ce55bcb2780800000000000000
+      internalID: -8706641884694695939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireBreath_px_19
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 245
+        width: 67
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d1b4999c8cbdc180800000000000000
+      internalID: -9093404760533061160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireBreath_px_20
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 245
+        width: 67
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad258f29b3710f800800000000000000
+      internalID: 644040291350237914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireBreath_px_21
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 245
+        width: 67
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6c77ea707c12ea90800000000000000
+      internalID: -7286229977708135313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireBreath_px_22
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 245
+        width: 67
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84ada740cc9ce73f0800000000000000
+      internalID: -901060997341849016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireBreath_px_23
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 245
+        width: 67
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bd2080c8358df4e0800000000000000
+      internalID: -1946252985159897675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireBreath_px_24
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 244
+        width: 66
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5ddaf81caacf5110800000000000000
+      internalID: 1251942061934566751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireBreath_px_25
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 185
+        width: 66
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1bb1e8bc89ab1190800000000000000
+      internalID: -7990606691976496356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireBreath_px_26
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 184
+        width: 66
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 692edfdba1d06b9c0800000000000000
+      internalID: -3911924817816853866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireBreath_px_27
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 184
+        width: 66
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86ad2c24618b37a70800000000000000
+      internalID: 8823598500697791080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireBreath_px_28
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 183
+        width: 66
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10d8ce40cbbbbecd0800000000000000
+      internalID: -2527720349627544319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireBreath_px_29
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 182
+        width: 67
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b588bb5b35c2a1030800000000000000
+      internalID: 3466131601257891931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireBreath_px_30
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 181
+        width: 68
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44e6f1cdd6f35def0800000000000000
+      internalID: -84091276959453628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireBreath_px_31
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 122
+        width: 69
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a12baf622508c740800000000000000
+      internalID: 5172389817495527842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireBreath_px_32
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 121
+        width: 70
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fabe224f7beb973b0800000000000000
+      internalID: -5514166571454239825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireBreath_px_33
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 120
+        width: 66
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3e8326cb19cf8070800000000000000
+      internalID: 8110922575043071546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireBreath_px_34
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 130
+        width: 67
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67ab699b4c07222b0800000000000000
+      internalID: -5610798195520652682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireBreath_px_35
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 130
+        width: 69
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54c2e36762f268530800000000000000
+      internalID: 3856821973128457285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireBreath_px_36
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 130
+        width: 71
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c17afd8535135be0800000000000000
+      internalID: -1489823731970051641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireBreath_px_37
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 72
+        width: 65
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 976a94c10aacedc00800000000000000
+      internalID: 927401362303067769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireBreath_px_38
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 72
+        width: 66
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee77a807de0e42c50800000000000000
+      internalID: 6639679061050947566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireBreath_px_39
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 72
+        width: 66
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e85509b5e0391ea0800000000000000
+      internalID: -5901632073482544922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireBreath_px_40
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 72
+        width: 66
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c926e865d2ad1cc0800000000000000
+      internalID: -3738653078175995456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireBreath_px_41
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 72
+        width: 66
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6de856cd4d97c30e0800000000000000
+      internalID: -2288820555473383722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireBreath_px_42
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 72
+        width: 67
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbd19647e3c675630800000000000000
+      internalID: 3915717416518753724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireBreath_px_43
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 14
+        width: 67
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 087e2e07677975970800000000000000
+      internalID: 8743623736518961024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireBreath_px_44
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 14
+        width: 68
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 353c68cb435d80630800000000000000
+      internalID: 3893596300339757907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireBreath_px_45
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 13
+        width: 69
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 979ecc21555eb7860800000000000000
+      internalID: 7528863355630315897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      FireBreath_px_0: -5751007279926714616
+      FireBreath_px_1: 8171446597427984520
+      FireBreath_px_10: -4910608545247374935
+      FireBreath_px_11: 3720796858129237368
+      FireBreath_px_12: 8081992132679452744
+      FireBreath_px_13: -3823944883769141786
+      FireBreath_px_14: 3642607895702583081
+      FireBreath_px_15: -5832686640579395497
+      FireBreath_px_16: -7095317889537324629
+      FireBreath_px_17: -646218089324868944
+      FireBreath_px_18: -8706641884694695939
+      FireBreath_px_19: -9093404760533061160
+      FireBreath_px_2: -1561599962134629850
+      FireBreath_px_20: 644040291350237914
+      FireBreath_px_21: -7286229977708135313
+      FireBreath_px_22: -901060997341849016
+      FireBreath_px_23: -1946252985159897675
+      FireBreath_px_24: 1251942061934566751
+      FireBreath_px_25: -7990606691976496356
+      FireBreath_px_26: -3911924817816853866
+      FireBreath_px_27: 8823598500697791080
+      FireBreath_px_28: -2527720349627544319
+      FireBreath_px_29: 3466131601257891931
+      FireBreath_px_3: -4227130472601645767
+      FireBreath_px_30: -84091276959453628
+      FireBreath_px_31: 5172389817495527842
+      FireBreath_px_32: -5514166571454239825
+      FireBreath_px_33: 8110922575043071546
+      FireBreath_px_34: -5610798195520652682
+      FireBreath_px_35: 3856821973128457285
+      FireBreath_px_36: -1489823731970051641
+      FireBreath_px_37: 927401362303067769
+      FireBreath_px_38: 6639679061050947566
+      FireBreath_px_39: -5901632073482544922
+      FireBreath_px_4: -4669167881101432204
+      FireBreath_px_40: -3738653078175995456
+      FireBreath_px_41: -2288820555473383722
+      FireBreath_px_42: 3915717416518753724
+      FireBreath_px_43: 8743623736518961024
+      FireBreath_px_44: 3893596300339757907
+      FireBreath_px_45: 7528863355630315897
+      FireBreath_px_5: -7426305500452678575
+      FireBreath_px_6: -4815220853818092534
+      FireBreath_px_7: 5488356340664094798
+      FireBreath_px_8: -3160938792765877454
+      FireBreath_px_9: -2957263081653365878
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

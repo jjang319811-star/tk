@@ -1,4 +1,4 @@
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Tilemaps;
 
@@ -138,6 +138,9 @@ public class Reposition : MonoBehaviour
     void RepositionEnemy()
     {
         if (!col.enabled || !GameManager.instance.isLive)
+            return;
+        // 적 떼는 화면을 가로지른 뒤 스스로 사라지므로 재배치하지 않음
+        if (TryGetComponent(out Enemy swarmCheck) && (swarmCheck.IsSwarm || swarmCheck.InSpawnGrace))
             return;
 
         float z = transform.position.z;

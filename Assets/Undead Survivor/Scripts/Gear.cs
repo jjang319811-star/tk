@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 
 public class Gear : MonoBehaviour
 {
@@ -61,7 +61,7 @@ public class Gear : MonoBehaviour
 
     void SpeedUp()
     {
-        float speed = 0.75f;
+        float speed = 1.125f; // PPU 통일 후 넓어진 시야(200x400)에 맞춰 x1.5
         GameManager.instance.player.speed = speed + speed * rate;
     }
 }

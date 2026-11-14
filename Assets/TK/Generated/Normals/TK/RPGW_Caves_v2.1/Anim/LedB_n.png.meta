@@ -1,0 +1,1066 @@
+fileFormatVersion: 2
+guid: 7495fcc138d472d44a137ee5b1016b10
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -398676676613269589
+    second: LedB_n_0
+  - first:
+      213: 7197387140796016770
+    second: LedB_n_1
+  - first:
+      213: -4665966527063808208
+    second: LedB_n_2
+  - first:
+      213: -5340805037471765624
+    second: LedB_n_3
+  - first:
+      213: -7347786238779181102
+    second: LedB_n_4
+  - first:
+      213: -6371498197475648072
+    second: LedB_n_5
+  - first:
+      213: -8343069725072645038
+    second: LedB_n_6
+  - first:
+      213: 5386353423902336973
+    second: LedB_n_7
+  - first:
+      213: -2680880012364427940
+    second: LedB_n_8
+  - first:
+      213: 5128316879216850956
+    second: LedB_n_9
+  - first:
+      213: -9122437958449114256
+    second: LedB_n_10
+  - first:
+      213: -7162575851961656609
+    second: LedB_n_11
+  - first:
+      213: 8050731934139307299
+    second: LedB_n_12
+  - first:
+      213: 8138227260517354050
+    second: LedB_n_13
+  - first:
+      213: -6843313244796939014
+    second: LedB_n_14
+  - first:
+      213: 2112682002785935904
+    second: LedB_n_15
+  - first:
+      213: -5751169115908096119
+    second: LedB_n_16
+  - first:
+      213: 6453719846576703030
+    second: LedB_n_17
+  - first:
+      213: 2930426173018435964
+    second: LedB_n_18
+  - first:
+      213: -6808929673461847289
+    second: LedB_n_19
+  - first:
+      213: -8567324402555294754
+    second: LedB_n_20
+  - first:
+      213: -7726010681626900924
+    second: LedB_n_21
+  - first:
+      213: 2252846257010461875
+    second: LedB_n_22
+  - first:
+      213: 7319434906422789135
+    second: LedB_n_23
+  - first:
+      213: -1904639552940976390
+    second: LedB_n_24
+  - first:
+      213: 1862720056576161399
+    second: LedB_n_25
+  - first:
+      213: -6213310647901596896
+    second: LedB_n_26
+  - first:
+      213: 3275807580371762375
+    second: LedB_n_27
+  - first:
+      213: -5543685932429595746
+    second: LedB_n_28
+  - first:
+      213: -5871178606618930495
+    second: LedB_n_29
+  - first:
+      213: 7178421782509414536
+    second: LedB_n_30
+  - first:
+      213: -6703137363009984967
+    second: LedB_n_31
+  - first:
+      213: -441904106741805732
+    second: LedB_n_32
+  - first:
+      213: -5450793972694339118
+    second: LedB_n_33
+  - first:
+      213: 7298207055461996626
+    second: LedB_n_34
+  - first:
+      213: 635186909388708058
+    second: LedB_n_35
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 0
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 1
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: LedB_n_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 230
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba79b36ccad977af0800000000000000
+      internalID: -398676676613269589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LedB_n_1
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 230
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2886c1e987142e360800000000000000
+      internalID: 7197387140796016770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LedB_n_2
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 230
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 037af7c3a282f3fb0800000000000000
+      internalID: -4665966527063808208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LedB_n_3
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 230
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88be0ee7d16a1e5b0800000000000000
+      internalID: -5340805037471765624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LedB_n_4
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 198
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d73018985b670a90800000000000000
+      internalID: -7347786238779181102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LedB_n_5
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 198
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bd1c64a524e397a0800000000000000
+      internalID: -6371498197475648072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LedB_n_6
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 166
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 254aabcd946773c80800000000000000
+      internalID: -8343069725072645038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LedB_n_7
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 166
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc76862a6eb20ca40800000000000000
+      internalID: 5386353423902336973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LedB_n_8
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 166
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5dc29925d99bcad0800000000000000
+      internalID: -2680880012364427940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LedB_n_9
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 166
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c083c59d7017b2740800000000000000
+      internalID: 5128316879216850956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LedB_n_10
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 134
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 073d9117207966180800000000000000
+      internalID: -9122437958449114256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LedB_n_11
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 134
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdad80b263b699c90800000000000000
+      internalID: -7162575851961656609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LedB_n_12
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 102
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 325544c1a02f9bf60800000000000000
+      internalID: 8050731934139307299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LedB_n_13
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 102
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24a8984439ac0f070800000000000000
+      internalID: 8138227260517354050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LedB_n_14
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 102
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af4172d7cdaa701a0800000000000000
+      internalID: -6843313244796939014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LedB_n_15
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 102
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 022aa6b8611c15d10800000000000000
+      internalID: 2112682002785935904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LedB_n_16
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 70
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98fb91bf82ebf20b0800000000000000
+      internalID: -5751169115908096119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LedB_n_17
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 70
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 636c717d108309950800000000000000
+      internalID: 6453719846576703030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LedB_n_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 31
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c71754b0417faa820800000000000000
+      internalID: 2930426173018435964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LedB_n_19
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 42
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70ba0b88982d181a0800000000000000
+      internalID: -6808929673461847289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LedB_n_20
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 43
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edbe726f8dfba1980800000000000000
+      internalID: -8567324402555294754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LedB_n_21
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 31
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44641ce1832b7c490800000000000000
+      internalID: -7726010681626900924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LedB_n_22
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 42
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bc4da21cb7b34f10800000000000000
+      internalID: 2252846257010461875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LedB_n_23
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 43
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f04cce1744bd39560800000000000000
+      internalID: 7319434906422789135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LedB_n_24
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 31
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af65bc5fa6c5195e0800000000000000
+      internalID: -1904639552940976390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LedB_n_25
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 42
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 776b738b506b9d910800000000000000
+      internalID: 1862720056576161399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LedB_n_26
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 43
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0235ca0a2e2e5c9a0800000000000000
+      internalID: -6213310647901596896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LedB_n_27
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 31
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cc379c63a1067d20800000000000000
+      internalID: 3275807580371762375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LedB_n_28
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 42
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9b2433240fd013b0800000000000000
+      internalID: -5543685932429595746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LedB_n_29
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 43
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c21b930a22658ea0800000000000000
+      internalID: -5871178606618930495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LedB_n_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 888666a0490ee9360800000000000000
+      internalID: 7178421782509414536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LedB_n_31
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 10
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9362425451ca9f2a0800000000000000
+      internalID: -6703137363009984967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LedB_n_32
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 11
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5d4ed46e8a0ed9f0800000000000000
+      internalID: -441904106741805732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LedB_n_33
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 0
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d1b6b9e2c3ea54b0800000000000000
+      internalID: -5450793972694339118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LedB_n_34
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 10
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 258df0e36a0784560800000000000000
+      internalID: 7298207055461996626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LedB_n_35
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 11
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad89714f023a0d800800000000000000
+      internalID: 635186909388708058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      LedB_n_0: -398676676613269589
+      LedB_n_1: 7197387140796016770
+      LedB_n_10: -9122437958449114256
+      LedB_n_11: -7162575851961656609
+      LedB_n_12: 8050731934139307299
+      LedB_n_13: 8138227260517354050
+      LedB_n_14: -6843313244796939014
+      LedB_n_15: 2112682002785935904
+      LedB_n_16: -5751169115908096119
+      LedB_n_17: 6453719846576703030
+      LedB_n_18: 2930426173018435964
+      LedB_n_19: -6808929673461847289
+      LedB_n_2: -4665966527063808208
+      LedB_n_20: -8567324402555294754
+      LedB_n_21: -7726010681626900924
+      LedB_n_22: 2252846257010461875
+      LedB_n_23: 7319434906422789135
+      LedB_n_24: -1904639552940976390
+      LedB_n_25: 1862720056576161399
+      LedB_n_26: -6213310647901596896
+      LedB_n_27: 3275807580371762375
+      LedB_n_28: -5543685932429595746
+      LedB_n_29: -5871178606618930495
+      LedB_n_3: -5340805037471765624
+      LedB_n_30: 7178421782509414536
+      LedB_n_31: -6703137363009984967
+      LedB_n_32: -441904106741805732
+      LedB_n_33: -5450793972694339118
+      LedB_n_34: 7298207055461996626
+      LedB_n_35: 635186909388708058
+      LedB_n_4: -7347786238779181102
+      LedB_n_5: -6371498197475648072
+      LedB_n_6: -8343069725072645038
+      LedB_n_7: 5386353423902336973
+      LedB_n_8: -2680880012364427940
+      LedB_n_9: 5128316879216850956
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

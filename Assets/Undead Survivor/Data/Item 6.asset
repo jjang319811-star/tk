@@ -14,9 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ItemData
   itemType: 6
   itemId: 6
-  itemName: "\uB099\uB8B0"
-  itemDesc: "\uB370\uBBF8\uC9C0 {0}% \uC99D\uAC00\n\uB099\uB8B0 {1}\uAC1C \uCD94\uAC00"
-  itemIcon: {fileID: 21300000, guid: 8daf103056b931148b51eb6c51de8131, type: 3}
+  itemName: "\uCE60\uC131\uB2E8 \uCC9C\uB8B0"
+  itemDesc: "\uD53C\uD574 {0}% \uC99D\uAC00\n\uCC9C\uB8B0 {1}\uC904\uAE30 \uCD94\uAC00"
+  introDesc: "\uCE60\uC131\uB2E8\uC5D0 \uBE4C\uC5B4 \uC801\uC5D0\uAC8C \uCC9C\uB8B0\uB97C
+    \uB0B4\uB9B0\uB2E4."
+  itemIcon: {fileID: 21300000, guid: 639e6dfa792198145b6ecfd09a42a240, type: 3}
+  iconSmall: {fileID: 21300000, guid: b8e0c41d78f29f24fa94a0d897ae559f, type: 3}
   baseDamage: 7
   baseCount: 1
   damages:
@@ -31,4 +34,4 @@ MonoBehaviour:
   attackInterval: 2
   attackRange: 0
   areaRadius: 0.2
-  effectScale: 0.25
+  effectScale: 1

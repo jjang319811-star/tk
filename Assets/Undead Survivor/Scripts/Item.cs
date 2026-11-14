@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
 public class Item : MonoBehaviour
 {
@@ -14,7 +14,9 @@ public class Item : MonoBehaviour
 
     void Awake()
     {
-        icon = GetComponentsInChildren<Image>()[1];
+        // 이름으로 찾기 (UI 재구성으로 아이콘 슬롯 프레임 등 Image 가 추가돼도 안전), 없으면 기존 방식
+        Transform iconT = transform.Find("Icon");
+        icon = iconT ? iconT.GetComponent<Image>() : GetComponentsInChildren<Image>()[1];
         icon.sprite = data.itemIcon;
 
         Text[] texts = GetComponentsInChildren<Text>();
@@ -26,21 +28,22 @@ public class Item : MonoBehaviour
 
     void OnEnable()
     {
-        textLevel.text = "Lv. " + (level + 1);
+        textLevel.text = level == 0 ? "신규!" : "Lv. " + (level + 1); // 뱀서처럼 처음 얻는 계책은 신규 표시
+
+        // 처음 얻는 경우 소개문(ItemData.introDesc) 우선
+        if (level == 0 && !string.IsNullOrEmpty(data.introDesc) && data.itemType != ItemData.ItemType.Heal)
+        {
+            textDesc.text = data.introDesc;
+            return;
+        }
 
         switch (data.itemType)
         {
             case ItemData.ItemType.Melee:
             case ItemData.ItemType.Ranged:
-                textDesc.text = string.Format(data.itemDesc, data.damages[level] * 100, data.counts[level]);
-                break;
             case ItemData.ItemType.FireBreath:
             case ItemData.ItemType.LightningStrike:
-                textDesc.text = level == 0
-                    ? (data.itemType == ItemData.ItemType.FireBreath
-                        ? "가장 가까운 적 방향으로 불을 뿜습니다."
-                        : "범위 내 무작위 적에게 번개를 떨어뜨립니다.")
-                    : string.Format(data.itemDesc, data.damages[level] * 100, data.counts[level]);
+                textDesc.text = string.Format(data.itemDesc, data.damages[level] * 100, data.counts[level]);
                 break;
             case ItemData.ItemType.Glove:
             case ItemData.ItemType.Shoe:
