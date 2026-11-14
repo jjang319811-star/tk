@@ -59,8 +59,8 @@ public class GameFeel : MonoBehaviour
         t.horizontalOverflow = HorizontalWrapMode.Overflow;
         t.verticalOverflow = VerticalWrapMode.Overflow;
         t.raycastTarget = false;
-        var o = go.AddComponent<Outline>();
-        o.effectColor = new Color(0f, 0f, 0f, 0.9f);
+        var o = go.AddComponent<Shadow>(); // 단일 그림자 (Outline 4방향 복사로 생기는 지터 방지)
+        o.effectColor = new Color(0.02f, 0.01f, 0.01f, 1f);
         o.effectDistance = new Vector2(1f, -1f);
         ((RectTransform)t.transform).sizeDelta = new Vector2(60f, 20f);
         return t;
@@ -210,8 +210,8 @@ public class GameFeel : MonoBehaviour
             // 위로 툭 튀었다가 살짝 내려오는 곡선
             float rise = Mathf.Sin(Mathf.Min(k * 1.6f, 1f) * Mathf.PI * 0.5f) * 0.3f;
             Vector3 w = n.world + new Vector3(n.drift.x * k, rise, 0f);
-            Vector2 screen = RectTransformUtility.WorldToScreenPoint(cam, w);
-            RectTransformUtility.ScreenPointToLocalPointInRectangle(numberRoot, new Vector2(Mathf.Round(screen.x), Mathf.Round(screen.y)), null, out Vector2 local);
+            Vector2 screen = TKPixelGrid.SnapScreen(RectTransformUtility.WorldToScreenPoint(cam, w)); // 게임 아트 픽셀 격자에 맞춰 이동
+            RectTransformUtility.ScreenPointToLocalPointInRectangle(numberRoot, screen, null, out Vector2 local);
             local = new Vector2(Mathf.Round(local.x), Mathf.Round(local.y));
             ((RectTransform)n.text.transform).anchoredPosition = local;
             var c = n.text.color;

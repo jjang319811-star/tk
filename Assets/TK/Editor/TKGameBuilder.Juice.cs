@@ -122,7 +122,7 @@ namespace TK.EditorTools
             uiRoot.canvas = canvas;
 
             // 정수 UI 배율 + 픽셀 퍼펙트 캔버스 + 전체 텍스트 폰트 교체
-            canvas.pixelPerfect = true;
+            canvas.pixelPerfect = false; // 정점별 반올림이 움직이는 글자를 1px씩 일그러뜨림 → 위치는 직접 정수/격자 스냅
             if (!canvas.GetComponent<PixelUIScaler>()) canvas.gameObject.AddComponent<PixelUIScaler>();
             foreach (var t in canvas.GetComponentsInChildren<Text>(true)) { t.font = font; EditorUtility.SetDirty(t); }
 
@@ -665,14 +665,22 @@ namespace TK.EditorTools
                 img.preserveAspect = false;
                 img.rectTransform.sizeDelta = img.sprite.rect.size * P; // 비율 유지, 정수 배율
             }
-            void SetFont(Text t, int size, TextAnchor anchor, Color? color = null)
+            // 글자 효과: 4방향 Outline 은 픽셀 폰트 획 주변을 지글거리게 하므로 제거,
+            // 월드 위 HUD 글자만 폰트 1픽셀만큼 단일 그림자 / 패널 안 글자는 그림자 없음
+            void SetFont(Text t, int size, TextAnchor anchor, Color? color = null, bool shadow = true)
             {
                 if (!t) return;
                 t.font = skin.font;
                 t.fontSize = size;
                 t.alignment = anchor;
                 if (color.HasValue) t.color = color.Value;
-                foreach (var o in t.GetComponents<Shadow>()) o.effectDistance = new Vector2(1f, -1f);
+                foreach (var e in t.GetComponents<Shadow>()) Object.DestroyImmediate(e); // Outline 포함
+                if (shadow)
+                {
+                    var s = t.gameObject.AddComponent<Shadow>();
+                    s.effectColor = new Color(0.02f, 0.01f, 0.01f, 1f);
+                    s.effectDistance = new Vector2(1f, -1f) * Mathf.Max(1, size / 16);
+                }
             }
 
             // ---- 상단 HUD
@@ -731,7 +739,7 @@ namespace TK.EditorTools
             ribbon.GetComponent<Image>().raycastTarget = false;
             var title = R("LevelUp/Panel/TextTitle");
             Place(title, new Vector2(0.5f, 1), new Vector2(0.5f, 1), new Vector2(0.5f, 0.5f), new Vector2(0, -4), new Vector2(200, skin.ribbon.rect.height * P));
-            SetFont(title?.GetComponent<Text>(), skin.titleSize, TextAnchor.MiddleCenter, new Color(1f, 0.92f, 0.6f));
+            SetFont(title?.GetComponent<Text>(), skin.titleSize, TextAnchor.MiddleCenter, new Color(1f, 0.92f, 0.6f), true);
 
             var group = R("LevelUp/Panel/ItemGroup");
             if (group)
@@ -769,12 +777,12 @@ namespace TK.EditorTools
                     }
 
                     Place(item.Find("Text Name") as RectTransform, new Vector2(0, 0.5f), new Vector2(1, 0.5f), new Vector2(0, 0.5f), new Vector2(92, 22), new Vector2(-160, 20));
-                    SetFont(item.Find("Text Name")?.GetComponent<Text>(), skin.bodySize, TextAnchor.MiddleLeft, new Color(1f, 0.9f, 0.6f));
+                    SetFont(item.Find("Text Name")?.GetComponent<Text>(), skin.bodySize, TextAnchor.MiddleLeft, new Color(1f, 0.9f, 0.6f), false);
                     Place(item.Find("Text Level") as RectTransform, new Vector2(1, 0.5f), new Vector2(1, 0.5f), new Vector2(1, 0.5f), new Vector2(-12, 22), new Vector2(64, 20));
-                    SetFont(item.Find("Text Level")?.GetComponent<Text>(), skin.smallSize, TextAnchor.MiddleRight, new Color(0.65f, 1f, 0.65f));
+                    SetFont(item.Find("Text Level")?.GetComponent<Text>(), skin.smallSize, TextAnchor.MiddleRight, new Color(0.65f, 1f, 0.65f), false);
                     Place(item.Find("Text Desc") as RectTransform, new Vector2(0, 0.5f), new Vector2(1, 0.5f), new Vector2(0, 0.5f), new Vector2(92, -12), new Vector2(-104, 40));
                     var desc = item.Find("Text Desc")?.GetComponent<Text>();
-                    SetFont(desc, skin.smallSize, TextAnchor.UpperLeft, new Color(0.92f, 0.9f, 0.85f));
+                    SetFont(desc, skin.smallSize, TextAnchor.UpperLeft, new Color(0.92f, 0.9f, 0.85f), false);
                     if (desc) { desc.horizontalOverflow = HorizontalWrapMode.Wrap; desc.verticalOverflow = VerticalWrapMode.Overflow; desc.lineSpacing = 1f; }
                 }
             }
@@ -843,9 +851,9 @@ namespace TK.EditorTools
                 t.color = color;
                 t.horizontalOverflow = HorizontalWrapMode.Overflow;
                 t.raycastTarget = false;
-                var o = go.AddComponent<Outline>();
+                var o = go.AddComponent<Shadow>(); // 단일 그림자 (폰트 1픽셀 = 2단위)
                 o.effectColor = new Color(0.12f, 0.04f, 0.02f, 1f);
-                o.effectDistance = new Vector2(2f, -2f); // 32px 글자의 1px = 2단위
+                o.effectDistance = new Vector2(2f, -2f);
                 return t;
             }
 

@@ -160,7 +160,7 @@ MonoBehaviour:
   m_Light2DProvider:
     rid: -2
   m_SelectionSources:
-    rid: 3021204290083750198
+    rid: 3021204290083750236
   m_FalloffIntensity: 0.65
   m_Color: {r: 1, g: 0.85, b: 0.45, a: 1}
   m_Intensity: 0.6
@@ -203,7 +203,7 @@ MonoBehaviour:
     RefIds:
     - rid: -2
       type: {class: , ns: , asm: }
-    - rid: 3021204290083750198
+    - rid: 3021204290083750236
       type: {class: Light2DProviderSources, ns: UnityEngine.Rendering.Universal, asm: Unity.RenderPipelines.Universal.2D.Runtime}
       data:
         m_SelectedHashCode: 3

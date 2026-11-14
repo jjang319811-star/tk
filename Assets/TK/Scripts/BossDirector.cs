@@ -147,7 +147,7 @@ public class BossDirector : MonoBehaviour
         tr.sizeDelta = new Vector2(64f * px, skin.ribbonPaper.rect.height * px);
         tr.anchoredPosition = new Vector2(0f, 0f);
         var name = ui.NewText("Name", tag.transform, skin.bodySize, TextAnchor.MiddleCenter, new Color(0.25f, 0.12f, 0.05f));
-        Destroy(name.GetComponent<Outline>());
+        foreach (var e in name.GetComponents<Shadow>()) Destroy(e); // 종이 이름표 위 글자는 효과 없이
         name.text = bossName;
 
         statusText = ui.NewText("Status", barRoot, skin.bodySize, TextAnchor.LowerRight, new Color(1f, 0.85f, 0.4f));

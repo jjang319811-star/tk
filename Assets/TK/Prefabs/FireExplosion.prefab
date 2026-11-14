@@ -51,7 +51,7 @@ MonoBehaviour:
   m_Light2DProvider:
     rid: -2
   m_SelectionSources:
-    rid: 3021204290083750194
+    rid: 3021204290083750232
   m_FalloffIntensity: 0.65
   m_Color: {r: 1, g: 0.55, b: 0.2, a: 1}
   m_Intensity: 1.4
@@ -94,7 +94,7 @@ MonoBehaviour:
     RefIds:
     - rid: -2
       type: {class: , ns: , asm: }
-    - rid: 3021204290083750194
+    - rid: 3021204290083750232
       type: {class: Light2DProviderSources, ns: UnityEngine.Rendering.Universal, asm: Unity.RenderPipelines.Universal.2D.Runtime}
       data:
         m_SelectedHashCode: 3
@@ -201,7 +201,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 8
   m_MaskInteraction: 0
-  m_Sprite: {fileID: -2332935511625836322, guid: 0be62fb95f57bc04088192f2efa4b445, type: 2}
+  m_Sprite: {fileID: 388526880216808742, guid: 0be62fb95f57bc04088192f2efa4b445, type: 2}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -225,18 +225,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SpriteFlipbook
   frames:
-  - {fileID: -2332935511625836322, guid: 0be62fb95f57bc04088192f2efa4b445, type: 2}
-  - {fileID: 8529035324606309649, guid: 0be62fb95f57bc04088192f2efa4b445, type: 2}
-  - {fileID: -1027882498018903975, guid: 0be62fb95f57bc04088192f2efa4b445, type: 2}
-  - {fileID: 1942160246060710802, guid: 0be62fb95f57bc04088192f2efa4b445, type: 2}
-  - {fileID: -5104923210750428044, guid: 0be62fb95f57bc04088192f2efa4b445, type: 2}
-  - {fileID: -8967352584244415845, guid: 0be62fb95f57bc04088192f2efa4b445, type: 2}
-  - {fileID: 1528186876934622360, guid: 0be62fb95f57bc04088192f2efa4b445, type: 2}
-  - {fileID: -6733951278180599843, guid: 0be62fb95f57bc04088192f2efa4b445, type: 2}
-  - {fileID: -740656681255801711, guid: 0be62fb95f57bc04088192f2efa4b445, type: 2}
-  - {fileID: 905777647853583446, guid: 0be62fb95f57bc04088192f2efa4b445, type: 2}
-  - {fileID: -3325474981525499102, guid: 0be62fb95f57bc04088192f2efa4b445, type: 2}
-  - {fileID: -4367377118994166668, guid: 0be62fb95f57bc04088192f2efa4b445, type: 2}
+  - {fileID: 388526880216808742, guid: 0be62fb95f57bc04088192f2efa4b445, type: 2}
+  - {fileID: 89447225707162694, guid: 0be62fb95f57bc04088192f2efa4b445, type: 2}
+  - {fileID: -9126702415786947920, guid: 0be62fb95f57bc04088192f2efa4b445, type: 2}
+  - {fileID: -4880653894087466080, guid: 0be62fb95f57bc04088192f2efa4b445, type: 2}
+  - {fileID: 3487107111170175453, guid: 0be62fb95f57bc04088192f2efa4b445, type: 2}
+  - {fileID: 6269143712414069994, guid: 0be62fb95f57bc04088192f2efa4b445, type: 2}
+  - {fileID: -4885408557452777813, guid: 0be62fb95f57bc04088192f2efa4b445, type: 2}
+  - {fileID: -2151423037404397681, guid: 0be62fb95f57bc04088192f2efa4b445, type: 2}
+  - {fileID: -520927440905961809, guid: 0be62fb95f57bc04088192f2efa4b445, type: 2}
+  - {fileID: -6931105647209222759, guid: 0be62fb95f57bc04088192f2efa4b445, type: 2}
+  - {fileID: -2929199546011165892, guid: 0be62fb95f57bc04088192f2efa4b445, type: 2}
+  - {fileID: 8810481494512030465, guid: 0be62fb95f57bc04088192f2efa4b445, type: 2}
   fps: 22
   randomStart: 0
 --- !u!114 &3530020973923930588

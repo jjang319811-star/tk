@@ -61,6 +61,7 @@ namespace TK.EditorTools
             SetupScene(mats, shapes, palette, prefabs, log);
             SetupJuiceAndUI(mats, shapes, fx, log);
             AssetDatabase.SaveAssets();
+            log.AppendLine(BuildPixelCompositeScene()); // 픽셀라이즈 컴포지트 씬도 항상 같은 내용으로 갱신
             return log.ToString();
         }
 

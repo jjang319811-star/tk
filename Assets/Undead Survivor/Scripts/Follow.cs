@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 
 public class Follow : MonoBehaviour
 {
@@ -15,6 +15,7 @@ public class Follow : MonoBehaviour
     void LateUpdate()
     {
         Vector3 screen = Camera.main.WorldToScreenPoint(GameManager.instance.player.transform.position + worldOffset);
-        rect.position = new Vector3(Mathf.Round(screen.x), Mathf.Round(screen.y), screen.z);
+        Vector2 snapped = TKPixelGrid.SnapScreen(screen); // 게임 아트 픽셀 격자 단위로만 이동 (지터 방지)
+        rect.position = new Vector3(snapped.x, snapped.y, screen.z);
     }
 }

@@ -123,9 +123,10 @@ public class TKUIRoot : MonoBehaviour
         t.raycastTarget = false;
         t.horizontalOverflow = HorizontalWrapMode.Overflow;
         t.verticalOverflow = VerticalWrapMode.Overflow;
-        var o = rt.gameObject.AddComponent<Outline>();
-        o.effectColor = new Color(0f, 0f, 0f, 0.9f);
-        o.effectDistance = new Vector2(1f, -1f);
+        // 4방향 Outline 은 픽셀 폰트 획 주변을 지글거리게 함 → 폰트 1픽셀만큼 단일 그림자
+        var sh = rt.gameObject.AddComponent<Shadow>();
+        sh.effectColor = new Color(0.02f, 0.01f, 0.01f, 1f);
+        sh.effectDistance = new Vector2(1f, -1f) * Mathf.Max(1, size / 16);
         return t;
     }
 }
